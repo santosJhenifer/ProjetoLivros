@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Imagens/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <title>Página Principal</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">
+            <img src="Imagens/icon.png" width="50" height="50" class="d-inline-block align-top" alt="">
+            <strong>Reading Books</strong>
+        </a>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="colleen.html"><strong>Colleen Hoover</a></strong>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="booktok.html"><strong>Famosos BookTok</a></strong>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="nacionais.html"><strong>Nacionais Preferidos</a></strong>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <strong>Categorias</strong>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item text-light" href="romance.html">Romance</a>
+                        <a class="dropdown-item text-light" href="suspense.html">Suspense</a>
+                        <a class="dropdown-item text-light" href="sequencia.html">Sequencia</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html"><img src="Imagens/usu_menu.png" width="30" height="30" class="d-inline-block align-top" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <center>
+        <h1 class="text-info"><strong>Selecionamos livros para incentivar sua leitura</strong></h1>
+        <p>Os livros são apresentados com sua sinopse e imagens, dentre outras informações dos livros.<br> É possível realizar a compra dos livros que desejar, possuindo muitas formas de pagamento para facilitar a compra dos usuários.</p>
+        <h3 class="text-info">Destaques do BookTok</h3>
+        <div id="Destaques" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#Destaques" data-slide-to="0" class="active"></li>
+                <li data-target="#Destaques" data-slide-to="1"></li>
+                <li data-target="#Destaques" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagens/agarota.jpg" alt="s1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/amoregelato.jpg" alt="s2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/ossetemaridos.jpg" alt="New York">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#Destaques" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#Destaques" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </center>
+</body>
+
+</html>

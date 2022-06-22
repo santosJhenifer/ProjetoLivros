@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Imagens/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style_forms.css" />
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <center>
+        <h1 class="text-info"><strong>CADASTRO</strong></h1>
+        <form action="gravausuario.jsp" method="POST">
+            <div class="form-row justify-content-center">
+                <div class="col-md-5 mb-3">
+                    <label for="validationDefault01">Nome Completo</label>
+                    <input type="text" class="form-control" value="nome" required>
+                </div>
+                <div class="col-md-5 mb-3">
+                    <label for="validationDefault02">CPF</label>
+                    <input type="text" class="form-control" value="cpf" required>
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="col-md-5 mb-3">
+                    <label for="validationDefault03">Email</label>
+                    <input type="text" class="form-control" value="email" required>
+                </div>
+                <div class="col-md-5 mb-3">
+                    <label for="validationDefault04">Senha</label>
+                    <input type="text" class="form-control" value="senha" required>
+                </div>
+            </div>
+            <br>
+            <button class="btn btn-primary" type="submit">Concluir</button>
+        </form>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Imagens/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style_forms.css" />
+    <title>Insere Livro</title>
+</head>
+
+<body class="form_bom">
+    <center>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-12">
+                    <div class="image-wrapper">
+                        <img class="w-100" src="Imagens/livro.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <form action="gravalivro.jsp" method="POST">
+                        <div class="dragArea row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h1 class="text-info"><strong>Inserir Livro</strong></h1>
+                            </div>
+                            <div class="form-grup col-lg-12 col-md col-sm-12">
+                                <label for="isbn">ISBN</label>
+                                <input type="text" class="form-control" value="isbn">
+                            </div>
+                            <div class="form-grup col-lg-12 col-md col-sm-12">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" value="nome">
+                            </div>
+                            <div class="form-grup col-lg-12 col-md col-sm-12">
+                                <label for="editora">Editora</label>
+                                <input type="text" class="form-control" value="editora">
+                            </div>
+                            <div class="form-grup col-lg-12 col-md col-sm-12">
+                                <label for="autor">Autor</label>
+                                <input type="text" class="form-control" value="autor">
+                            </div>
+                            <div class="form-grup col-lg-12 col-md col-sm-12">
+                                <label for="num_pag">Número de Páginas</label>
+                                <input type="text" class="form-control" value="num_pag">
+                            </div>
+                            <div class="form-grup col-lg-12 col-md col-sm-12 mb-3">
+                                <label for="preco">Preço</label>
+                                <input type="text" class="form-control" value="preco">
+                            </div>
+                            <input type="submit" class="btn btn-info btn-lg btn-block" value="Inserir" />
+                    </form>
+                    </div>
+                </div>
+    </center>
+</body>
+
+</html>
